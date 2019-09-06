@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<head>
+<title>Sydney Restaurant</title>
+<link href="styles/restaurantStyles.css" rel="stylesheet" type="text/css"/>
+<style>
+label, fieldset {
+font-weight: bold;
+}
+fieldset {
+width: 100%;
+padding: 12px 20px;
+margin: 12px 0;
+box-sizing: border-box;
+}
+</style>
+</head>
+
+<body>
+
+<main>
+<header>
+<h1>Sydney's Seafood Kitchen</h1>
+</header>
+
+<nav><!--The navigation elements will navigate to links-->
+<hr/>
+<p><a href="home.html">Home</a></p>
+<p><a href="menu.html">Menu</a></p>
+<p><a href="contact.html">Contact Us</a></p>
+<hr/>
+</nav>
+
+<form action="submit.html" method="POST">
+<label for="name">Name:</label><br/>
+<input type="text" id="name" name="name"> <br/>
+<label for="email">Email:</label><br/>
+<input type="text" id="email" name="email"><br/>
+<label for="phone">Phone Number:</label><br/>
+<input type="text" id="phone" name="phone"><br/>
+<label for="contact">Reason for Inquiry:</label><br/>
+<select id="contact" name="contact">
+<option value="default" selected>--Catering--</option>
+<option value="private party">Private Party</option>
+<option value="feedback">Feedback</option>
+<option value="other">Other</option>
+</select>
+<br/>
+
+<label for="info">Additional Information</label><br/>
+<textarea id="info" name="info"></textarea>
+
+<fieldset>
+<legend>Have you been to the restaurant?</legend><br/>
+<input type="radio" id="choice1" name="questionnaire" value="yes">
+<label for="choice1">Yes</label><br/>
+<input type="radio" id="choice2" name="questionnaire" value="no">
+<label for="choice2">No</label><br/>
+</fieldset>
+
+<fieldet>
+<legend>Best days to contact you:</legend><br/>
+<input type="checkbox" id=Monday" name="interest" value="Monday">
+<label for="Monday">M</label><br>
+<input type="checkbox" id="Tuesday" name="interest" vale="Tuesday">
+<label for="Tuesday">T</label><br/>
+<input type="checkbox" id="Wednesday" name="interest" value="Wednesday">
+<label for="Wednesday">W</label><br/>
+<input type="checkbox" id="Thursday" name="interest" vale="Thursday">
+<label for="Thursday">Th</label><br/>
+<input type="checkbox" id="Friday" name="interest" value="Friday">
+<label for="Friday">F</label><br/>
+
+<input type="submit" name="submit" value="Submit">
+
+<footer>
+<hr/>
+<p>287 Peachtreet Street, Atlanta, GA 30303</p>
+<p>678.522.0347</p>
+</footer>
+</main>
+
+</body>
+</html>

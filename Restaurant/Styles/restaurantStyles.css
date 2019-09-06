@@ -1,0 +1,31 @@
+/*
+Creator: Sydney Mason
+Date Created; September 5, 2019
+Date last modified:
+*/
+body {
+	background-color: fef9ff;
+	font-family: ariel, helvetica, snas-serif;
+	color: #0d1f2d;
+	max-width: 900px;
+	margin: 0 auto;
+}
+header,footer {
+	background-color: black;
+	color: gold;
+	height: 100px;
+	text-align: center;
+	padding: 30px 10px 20px 10px;
+}
+h1 {
+	font-size: 3.0em;
+}
+nav a:hover {
+	font-weight: bold;
+}
+nav a:active {
+	text-decoration: none
+}
+nav a:visited {
+	color: darkblue;
+}

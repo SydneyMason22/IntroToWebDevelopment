@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<!--
+Name: Sydney Mason
+Date Created: September 2, 2019
+Most recent revision:
+-->
+<html lang="en">
+<head>
+<title>Sydney's Portfolio</title>
+<link href="styles/main.css" rel="stylesheet" type="text/css"/>
+<style>
+caption {
+font-weight: bold;
+font-size: 1.2em;
+margin-bottom: 8px
+}
+table,th,td {
+border: 1px solid #0d1f2d;
+border-collapse: collapse;
+padding: 5px 10px;
+}
+table {
+width: 90%;
+margin: auto;
+}
+tr {
+height: 30px;
+}
+th {
+background-color: #546a7b;
+color: #f2eded;
+}
+tr:nth-child(odd) {
+background-color: #e4c3ad;
+}
+/* Creating article layouts */
+.clear-float {
+clear:both;
+}
+article img {
+float: left;
+}
+.right-content {
+float: left;
+}
+article {
+margin-bottom: 16px;
+}
+nav a {
+background-color: #5b7d87;
+color: #fef9ff;
+padding; 8px;
+border: thin solid #0d1f2d;
+text-decoration: none;
+text-align: center;
+display: block;
+margin: 20px;
+width: 100px;
+float: left;
+}
+</style>
+</head>
+
+<body>
+
+<main><!--The main element contains all blocks on the page-->
+<header><!--The header element contains only the main title at this point-->
+<h1>Portfolio for Sydney Mason</h1>
+</header>
+
+
+<nav><!--The nav element will include navigation buttons or links-->
+<p><a href="projects.html">Projects</a></p>
+<p><a href="contact.html">Contact Me</a></p>
+<p><a href="testimonials.html">Testimonials</a></p>
+<div class="clear-float"></div>
+</nav>
+
+<section><!The section conatains the three chunks we are using to sell ourselves in this page.-->
+<article id="about"><!--This is the first chunk inside the section element.-->
+<h2><em>About Me</em></h2>
+<img src="images/informatics.jpg" alt="Portrait of Informatics" width="250"/>
+<p>Dynamic self-starter with experience in electronic medical records management dealing with <strong>informatics, customer service, and hospitality environments</strong>. Possess the ability to solve practical problems and streamline processes. Proven ability to quickly learn, contribute value in a challenging environment, and manage multiple assignments while meeting tight deadlines.</p>
+<p>Customer service professional with a positive attitude, a flexible work schedule, and a driven work ethic. Scientific background with <strong>sound laboratory, research, testing, and analytical skills</strong>. Energetic communicator with strong interpersonal and relationship development techniques.</p>
+<div class="clear-float"></div>
+</article>
+
+<article id="experience"><!--This is the second chuck inside the section element.-->
+<h2><em>Past Experiences.</em></h2>
+<img src="images/cap.jpg" alt="" width="250"/> 
+<div class="right-content">
+<table>
+<caption>Employment History</caption>
+<thead>
+<tr>
+<th>Years of Employment</th>
+<th>Title</th>
+<th>Company</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2019-Present</td>
+<td>Lead Valet</td>
+<td>AAA Parking</td>
+
+<tr>
+<td>2017-2019</td>
+<td>Front Office Coordinator</td>
+<td>Total Woman Health & Wellness OB/GYN</td>
+</tr>
+
+<tr>
+<td>2014-2017</td>
+<td>Valet</td>
+<td>AAA Parking</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="clear-float"></div>
+</article>
+</section>
+
+<section>
+<article id="hobbies"><!--This is the third chunk inside the section element.-->
+ <h2><em>Hobbies</em></h2>
+ <img src="images/concert.jpg" alt="Portrait of Concert." width="250"/>
+ <div class="right-content">
+<ul>
+<li>Music</li>
+<ol>
+<li>R&B Music</li>
+<li>Soul Music</li>
+<li>HipHop Music</li>
+</ol>
+
+<li>Sports Teams</li>
+<ol>
+<li>Atlanta Falcons</li>
+<li>Philadelphia Eagles</li>
+<li>Los Angelos Lakers</li>
+</ol>
+</ul>
+<ul>
+<li>Sports</li>
+<ul>
+<li>Basketball</li>
+<li>Football</li>
+<li>Softball</li>
+</ul>
+</div>
+<div class="clear-float"></div>
+</article>
+</section>
+
+<footer>
+<p>&copy; 2020 Sydney Mason. All rights reserved.</p>
+</footer>
+</main>
+
+</body>
+</html>
